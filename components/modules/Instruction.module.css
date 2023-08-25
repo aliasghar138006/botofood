@@ -1,0 +1,22 @@
+
+.container h2 , .container ul{
+    text-align: start;
+}
+
+.container ul{
+    padding: 5px 10px;
+}
+
+.container h2 {
+    color: #53c60b;
+}
+
+.container li{
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.container li::before{
+    content: "• ";
+    color: #53c60b;
+}

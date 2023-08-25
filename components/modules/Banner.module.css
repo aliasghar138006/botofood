@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.right img{
+    width: 300px;
+    height: 200px;
+}
+
+.left{
+    text-align: start;
+}
+
+.left h3{
+    width: 10%;
+    /* border-bottom: 4px solid #68cd29 ; */
+}
+
+.left p {
+    color: #8f8f8f;
+    text-align: justify;
+}
+
+
+.left a {
+    background-color:#53c60b ;
+    color: white;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+@media (max-width:1000px) {
+    .container{
+        display: block;
+        
+    }
+}

@@ -1,0 +1,129 @@
+.container {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    text-align: start;
+    margin-left: 0px;
+}
+
+.banner img{
+    width: 350px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.right{
+    margin-left: 50px;
+    text-align: start;
+}
+
+.right span:first-child {
+    color:#53c60b;
+    font-weight: bold;
+    text-align: start;
+}
+
+.location {
+    margin-top: 10px;
+    color: silver;
+    text-align: start;
+}
+
+.price {
+    display: flex;
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.off {
+    background-color:#ed4133 ;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+
+}
+
+.introduction {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.details h2 {
+    color:#53c60b;
+    text-align: start;
+}
+
+.details ul {
+    padding: 0px 10px;
+    margin-left: 0px;
+    text-align: start;
+}
+
+.ingredients h2 {
+    color: #53c60b;
+    text-align: start;
+}
+
+.ingredients p {
+    text-align: start;
+    font-weight: bold;
+}
+
+
+.recipe h2 {
+    text-align: start;
+    color: #53c60b;
+}
+
+.odd{
+    display: flex;
+    justify-content: space-between;
+    background-color: #bcff93;
+    padding: 10px;
+}
+
+
+
+.even{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8ffdb;
+    padding: 10px;
+}
+
+.des {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.num{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.buy {
+    display: block;
+    background-color: #53c60b;
+    color: white;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+@media (max-width:858px) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

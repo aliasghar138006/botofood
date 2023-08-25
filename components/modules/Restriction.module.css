@@ -1,0 +1,12 @@
+.container {
+    margin-top: 30px;
+}
+
+.container h2{
+    text-align: start;
+    color: #53c60b;
+}
+
+.container p {
+    text-align: justify;
+}

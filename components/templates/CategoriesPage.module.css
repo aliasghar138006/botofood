@@ -1,0 +1,38 @@
+.container h2 {
+    text-align: start;
+}
+
+.options {
+    text-align: start;
+    margin-top: 20px;
+}
+
+.options select {
+    padding: 10px 25px;
+    color :#4cad10;
+    background-color: #e9e9ed;
+    border-radius: 5px;
+    margin: 5px 10px;
+    border: none;
+}
+
+
+.options button {
+    padding: 10px 20px;
+    background-color: #53c60b;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image img {
+    margin: 100px 0px;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+.container {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left span {
+    color:#55c60e ;
+    font-weight: bold;
+}
+
+.right span{
+    margin: 0px 10px;
+    color: #6b6b6b;
+}
+
+.footer {
+    background-color:#53c60b ;
+    padding: 8px;
+    width: 100%;
+}
+
+.footer span {
+    color: white;
+}
